@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frst-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(my_imag.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    background-repeat: repeat-y;
+}
+button {
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #007aff;
+    padding: 8px;
+    /* float: right; */
+}
+.frst-1{
+text-align: center;
+color: #fff;
+}
+h2{
+    margin-top: 10px;
+}
+button:hover{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    border: 1px solid rgb(15, 187, 66);
+    border-radius: 9px;
+    background-color: #00c3ff;
+    padding: 8px;
+}
