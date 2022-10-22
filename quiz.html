@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="to_do.css">
+    <title>Task</title>
 </head>
 <body>
-    <h1>WELCOME BACK</h1>
+    <div class="cnt-1">
+        <div class="sct-1">
+            <h1 id="title">YOUR TASK</h1>
+            <p>
+                <label for="new-task"></label>
+                <input id="new-tsk" type="text">
+                <button>Add</button>
+            </p>
+
+        </div>
+        <div class="sct-2">
+            <h3>To-do</h3>
+            <ul id="incomplete-task">
+
+            </ul>
+        </div>
+        <div class="sct-3">
+            <h3>Completed Task</h3>
+            <ul id="completed-Tasks">
+                <li>
+                    <input type="checkbox" checked="">
+                    <label >Learn Javascript</label>
+                    <input type="text">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="sct-4">
+            <button class="clear">
+                <p>clear</p>
+            </button>
+
+        </div>
+
+    </div>
+   
+    <script src="index.js"></script>
+
 </body>
 </html>
